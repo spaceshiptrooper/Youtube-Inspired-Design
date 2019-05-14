@@ -1,0 +1,106 @@
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+	.container-fluid {
+		/* width: 100%; */
+		width: 100vw;
+		height: 100vh;
+		overflow: auto;
+	}
+
+	.left-panel, .right-panel, .middle-panel {
+		float: none;
+		clear: all;
+		width: 100vw;
+	}
+
+	.left-panel, .middle-panel {
+		margin-top: -20px;
+		height: 45vw;
+	}
+
+	.right-panel {
+		margin-top: -20px;
+		height: 100vw;
+		overflow: unset;
+	}
+
+	.left-panel {
+		overflow: unset;
+	}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 480px) and (max-width: 480px) {
+
+
+	.container-fluid {
+		/* width: 100%; */
+		width: 100vw;
+		height: 100vh;
+		overflow: auto;
+	}
+
+	.left-panel, .right-panel, .middle-panel {
+		float: none;
+		clear: all;
+		width: 100vw;
+	}
+
+	.left-panel, .middle-panel {
+		margin-top: -20px;
+		height: 45vw;
+	}
+
+	.right-panel {
+		margin-top: -20px;
+		height: 100vw;
+		overflow: unset;
+	}
+
+	.left-panel {
+		overflow: unset;
+	}
+
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+
+	.container-fluid {
+		/* width: 100%; */
+		width: 100vw;
+		height: 100vh;
+		overflow: auto;
+	}
+
+	.left-panel, .right-panel, .middle-panel {
+		float: none;
+		clear: all;
+		width: 100vw;
+	}
+
+	.left-panel, .middle-panel {
+		margin-top: -20px;
+		height: 45vw;
+	}
+
+	.right-panel {
+		margin-top: -20px;
+		height: 100vw;
+		overflow: unset;
+	}
+
+	.left-panel {
+		overflow: unset;
+	}
+
+}
